@@ -39,7 +39,7 @@ print("=====================================================")
 count=0
 total=0
 while True:
-    ran= random.randint(1CmrEqmhGsE7F6DSJiZkvHpDngmSyhKD8c,115792089237316195423570985008687907852837564279074904382605163141518161494336)
+    ran= random.randint(730750818665451459101842416358141509827966271488,115792089237316195423570985008687907852837564279074904382605163141518161494336)
     key = Key.from_int(ran)
     seed=str(ran)
     wif = bytes_to_wif(key.to_bytes(), compressed=False)
